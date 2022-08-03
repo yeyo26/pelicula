@@ -9,7 +9,7 @@ import favoritos from "../routes/favoritos.js"
 import fileUpload from "express-fileUpload"
 
 class Server{
-    constructor(){
+    constructor(){ 
         this.app=express()
         this.middleware()
         this.port=process.env.PORT
